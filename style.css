@@ -1,0 +1,49 @@
+body {
+    background-color: antiquewhite;
+    color: maroon;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+input:nth-child(1) {
+    border-radius: 0%;
+    border-color: whitesmoke;
+    color: rgb(249, 82, 82);
+    background-color: bisque;
+    height: 30px;
+    width: 150px;
+}
+
+input:nth-child(2) {
+    border-radius: 0%;
+    border-color: whitesmoke;
+    color: rgb(206, 255, 255);
+    background-color: bisque;
+    height: 30px;
+    width: 125px;    
+}
+
+input:hover {
+    border-color: white;
+}
+
+.random_woord {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.eigen_woord {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: aliceblue;
+    background-color: aliceblue;
+}
